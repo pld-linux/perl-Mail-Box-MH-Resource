@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Mail
-%define	pnam	Box-MH-Resource
+%define		pdir	Mail
+%define		pnam	Box-MH-Resource
 Summary:	Mail::Box::MH::Resource - manage an MH resource file such as the MH profile
 Summary(pl):	Mail::Box::MH::Resource - zarz±dzanie plikami zasobów MH takimi jak profile MH
 Name:		perl-Mail-Box-MH-Resource
