@@ -8,12 +8,12 @@
 Summary:	Mail::Box::MH::Resource - manage an MH resource file such as the MH profile
 Summary(pl):	Mail::Box::MH::Resource - zarz±dzanie plikami zasobów MH takimi jak profile MH
 Name:		perl-Mail-Box-MH-Resource
-Version:	0.05
+Version:	0.06
 Release:	1
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tgz
-# Source0-md5:	422dc5db21ed7e323dccb7dff174b115
+# Source0-md5:	d35901189ef819fc082194279334646b
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
