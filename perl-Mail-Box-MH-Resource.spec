@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Mail
 %define	pnam	Box-MH-Resource
-Summary:	Mail::Box::MH::Resource - Manage an MH resource file such as the MH profile
+Summary:	Mail::Box::MH::Resource - manage an MH resource file such as the MH profile
 Summary(pl):	Mail::Box::MH::Resource - zarz±dzanie plikami zasobów MH takimi jak profile MH
 Name:		perl-Mail-Box-MH-Resource
 Version:	0.05
