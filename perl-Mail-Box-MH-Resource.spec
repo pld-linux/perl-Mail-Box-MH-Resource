@@ -10,7 +10,7 @@ Summary(pl):	Mail::Box::MH::Resource - zarz±dzanie plikami zasobów MH takimi jak
 Name:		perl-Mail-Box-MH-Resource
 Version:	0.05
 Release:	1
-License:	?
+License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tgz
 # Source0-md5:	422dc5db21ed7e323dccb7dff174b115
