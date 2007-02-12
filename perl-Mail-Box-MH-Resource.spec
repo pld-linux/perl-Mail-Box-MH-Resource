@@ -6,7 +6,7 @@
 %define		pdir	Mail
 %define		pnam	Box-MH-Resource
 Summary:	Mail::Box::MH::Resource - manage an MH resource file such as the MH profile
-Summary(pl):	Mail::Box::MH::Resource - zarz±dzanie plikami zasobów MH takimi jak profile MH
+Summary(pl.UTF-8):   Mail::Box::MH::Resource - zarzÄ…dzanie plikami zasobÃ³w MH takimi jak profile MH
 Name:		perl-Mail-Box-MH-Resource
 Version:	0.06
 Release:	1
@@ -26,8 +26,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Read and write MH format resource files such as profile, context,
 and sequence.
 
-%description -l pl
-Ten modu³ czyta i zapisuje pliki zasobów w formacie MH, takie jak
+%description -l pl.UTF-8
+Ten moduÅ‚ czyta i zapisuje pliki zasobÃ³w w formacie MH, takie jak
 profile, context i sequence.
 
 %prep
