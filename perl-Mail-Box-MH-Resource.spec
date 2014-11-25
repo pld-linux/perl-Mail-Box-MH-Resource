@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Mail
 %define		pnam	Box-MH-Resource
+%include	/usr/lib/rpm/macros.perl
 Summary:	Mail::Box::MH::Resource - manage an MH resource file such as the MH profile
 Summary(pl.UTF-8):	Mail::Box::MH::Resource - zarządzanie plikami zasobów MH takimi jak profile MH
 Name:		perl-Mail-Box-MH-Resource
@@ -14,6 +14,7 @@ License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tgz
 # Source0-md5:	d35901189ef819fc082194279334646b
+URL:		http://search.cpan.org/dist/Mail-Box-MH-Resource/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -23,8 +24,8 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Read and write MH format resource files such as profile, context,
-and sequence.
+Read and write MH format resource files such as profile, context, and
+sequence.
 
 %description -l pl.UTF-8
 Ten moduł czyta i zapisuje pliki zasobów w formacie MH, takie jak
